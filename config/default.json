@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://admin:Password@cluster0.sjlai.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:2000"
+}

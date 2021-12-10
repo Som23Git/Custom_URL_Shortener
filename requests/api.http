@@ -1,0 +1,6 @@
+POST http://localhost:2000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHhqSF9FaXNaNmIwQW9acGM0dkFTLXRjSEYwQXxBQ3Jtc0tsbXVVTkZMeXFKVDVLWERkMXBNQ1A5dnVvampKQkpzQWZheTd6WmIyQ0VUdGdlRUZFUnJpVUVlbl9tRHNmekJBdENVSkNqQ0lBWm5USzJ6Sl9pdk9JM29MQXROVE5fTUlwZzNEdXFqS045OUl4UHpXVQ&q=http%3A%2F%2Fwww.patreon.com%2Ftraversymedia"
+}

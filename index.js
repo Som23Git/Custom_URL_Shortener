@@ -1,9 +1,18 @@
-const express = require('express')
+const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
 
+//Connect to Database
+connectDB();
+
 app.use(express.json({ extented: false}));
 
-const PORT = 5000;
 
-app.listen(PORT, () => console.log('Server Runnning on Port ${PORT}'));
+//Define Routes
+app.use('/', require('./routes/index'));
+app.use('/api/url', require('./routes/url'));
+
+const PORT = 2000;
+
+app.listen(PORT, () => console.log('Server Runnning on port '+ PORT));
